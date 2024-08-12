@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Calcular IMC</h1>         
+            </div>            
+            <div class="col-12">
+                <label for="peso">Peso:</label>
+                <input type="number" id="peso">
+            </div>
+            <div class="col-12">
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura">
+            </div>
+            <div class="col-12">
+                <button onclick="calculo()">Calcular</button>
+            </div>
+            <div class="col-12">
+                <div class="result" id="resultado"></div>
+            </div>                         
+        </div>                    
+    </div>  
+    <footer>
+        <p>Alan Lucas Borges - MBA Engenharia de Software - Faculdade Impacta - 2024</p>
+    </footer>    
+    <script src="./index.js"></script>    
+</body>
+</html>
